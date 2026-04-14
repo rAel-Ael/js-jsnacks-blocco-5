@@ -4,6 +4,8 @@ const nums = [2, 8, 4, 7, 12, 87];
 // Risultato: [2, 8, 4, 12]
 
 
-const nPari = nums.filter((x) => x % 2 );
+const nPari = nums.filter((x) => {
+    return x % 2 == 0
+}); 
 
-console.log(nPari)
+console.log(nPari);
