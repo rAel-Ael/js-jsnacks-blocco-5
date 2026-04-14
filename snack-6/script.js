@@ -15,5 +15,7 @@ const zucchine = [
 
 const zucchineLunghe = zucchine.filter(zucchine => zucchine.length >= 15); 
 
+const other = zucchine.filter(zucchine => zucchine.length <= 15);
 
 console.log(zucchineLunghe);
+console.log(other);
